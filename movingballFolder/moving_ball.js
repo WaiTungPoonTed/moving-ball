@@ -10,7 +10,7 @@ window.onload = function () {
 
 
 	btn_clear.onclick = function() {
-	pause *= -1
+	pause = 1
         context.clearRect(0, 0, 400, 200);
         x = 200;
         y = 100;
